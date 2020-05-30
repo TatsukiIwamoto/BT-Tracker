@@ -77,9 +77,16 @@
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToNormalActivity"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Check Normal Range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#F3F6F6" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
 
         <TextView
             android:id="@+id/MainButton3"
@@ -88,9 +95,19 @@
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToMechanismActivity"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Mechanism of Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#F3F6F6" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <TextView
             android:id="@+id/MainButton4"
@@ -99,6 +116,8 @@
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToHandleActivity"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Handling Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#F3F6F6" />
