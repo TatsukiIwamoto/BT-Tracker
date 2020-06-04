@@ -54,6 +54,9 @@
             android:id="@+id/MainButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToLogActivity"
@@ -67,6 +70,9 @@
             android:id="@+id/view3"
             android:layout_width="match_parent"
             android:layout_height="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -74,6 +80,9 @@
             android:id="@+id/MainButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToNormalActivity"
@@ -86,12 +95,18 @@
         <View
             android:id="@+id/view4"
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp" />
 
         <TextView
             android:id="@+id/MainButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToMechanismActivity"
@@ -105,14 +120,19 @@
             android:id="@+id/view5"
             android:layout_width="match_parent"
             android:layout_height="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <TextView
             android:id="@+id/MainButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#03A9F4"
             android:onClick="goToHandleActivity"
